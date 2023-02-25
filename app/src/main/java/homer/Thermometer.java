@@ -5,8 +5,8 @@ import homer.api.DeviceInfo;
 
 public class Thermometer implements Device<Double> {
 
-    private final long ID = 0;
-    private final String TYPE = "Thermometer";
+    private static final long ID = 0;
+    private static final String TYPE = "Thermometer";
     private final Double state = 15.0;
 
     @Override

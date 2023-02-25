@@ -5,8 +5,8 @@ import homer.api.ToggleableDevice;
 
 public class Lock implements ToggleableDevice<LockState> {
 
-    private final long ID = 0;
-    private final String TYPE = "Lock";
+    private static final long ID = 0;
+    private static final String TYPE = "Lock";
     private final LockState state = new LockState();
 
     @Override
