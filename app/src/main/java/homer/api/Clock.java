@@ -5,9 +5,9 @@ import java.time.temporal.TemporalAmount;
 
 public interface Clock {
 
-    LocalDateTime getTime();
+    LocalDateTime getDateTime();
 
-    void setTime(LocalDateTime dateTime);
+    void setDateTime(LocalDateTime dateTime);
 
     void updateTick(TemporalAmount dt);
 
