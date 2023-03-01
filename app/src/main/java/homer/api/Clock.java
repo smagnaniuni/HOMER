@@ -21,8 +21,8 @@ public interface Clock {
     /**
      * Updates the clock local date and time with a delta time amount.
      * 
-     * @param dt How much time should be added to the current clock time.
+     * @param deltaTime How much time should be added to the current clock time.
      */
-    void updateTick(TemporalAmount dt);
+    void updateTick(TemporalAmount deltaTime);
 
 }
